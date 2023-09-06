@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: auto; */
+    
+}
+
+body{
+    background: linear-gradient(to right, lightblue, lightpink);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+    margin: auto;
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+.todoList{
+    margin-top: 5rem;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-weight: 700;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.listTxt{
+    text-align: left;
+    overflow-wrap: normal;
+    word-break: break-all;
+}
+
+.list button{
+    background: none;
+    border: none;
+    font-weight: 700;
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.list button:hover{
+    background: rgba(255,255,255,0.4);
+}
